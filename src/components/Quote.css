@@ -1,0 +1,37 @@
+#quote-box {
+  color: red;
+  padding: 2rem;
+  max-width: 450px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn {
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: red;
+}
+
+#text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+#author {
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
